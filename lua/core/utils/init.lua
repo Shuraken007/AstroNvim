@@ -7,7 +7,7 @@
 -- @module core.utils
 -- @copyright 2022
 -- @license GNU General Public License v3.0
-
+vim.g.python3_host_prog = "/usr/bin/python3"
 _G.astronvim = {}
 local stdpath = vim.fn.stdpath
 local tbl_insert = table.insert
